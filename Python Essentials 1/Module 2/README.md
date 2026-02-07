@@ -1,3 +1,5 @@
+### Data types, variables, basic input-output operations, basic operators
+
 In this module, you will learn:
 
 - how to write and run simple Python programs;
