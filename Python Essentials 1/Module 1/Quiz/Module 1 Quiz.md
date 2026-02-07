@@ -1,6 +1,6 @@
 <img width="1861" height="441" alt="image" src="https://github.com/user-attachments/assets/9fc1d51e-66f7-43c0-ba0b-76f238e7ca1d" />
 
-Answer: c
+Answer: b
 
 ##
 <img width="1849" height="412" alt="image" src="https://github.com/user-attachments/assets/05718161-a9f8-4cac-85e4-7ff36b972518" />
