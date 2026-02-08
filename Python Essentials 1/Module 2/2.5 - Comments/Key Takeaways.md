@@ -48,4 +48,3 @@ print("Hello!")
 
 `SyntaxError: invalid syntax`
 </details>
-<hr>
