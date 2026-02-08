@@ -14,5 +14,14 @@ Write a one-line piece of code, using the `print()` function, as well as the new
 """Python"""
 ```
 
-### Solution
+<details>
+<summary>Answer</summary>
+  
+```python
+print('"I\'m"')
+print('""learning""')
+print('"""Python"""')
+```
+
+</details>
 
