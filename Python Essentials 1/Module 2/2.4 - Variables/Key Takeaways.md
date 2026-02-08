@@ -96,4 +96,3 @@ print(a)
 
 `1.0`
 </details>
-<hr>
