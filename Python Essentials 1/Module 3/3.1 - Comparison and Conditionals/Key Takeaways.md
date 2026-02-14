@@ -70,7 +70,7 @@
           print("x is equal to 10")  # Executed if condition three is True.
       ```
 
-     Each `if` statement is tested separately.
+        Each `if` statement is tested separately.
 
      - an `if-else` statement, e.g.:
 
@@ -104,7 +104,7 @@
 
         Each `if` is tested separately. The body of `else` is executed if the last `if` is `False`.
 
-        - The `if-elif-else` statement, e.g.:
+     - The `if-elif-else` statement, e.g.:
 
         ```python
         x = 10
@@ -127,7 +127,7 @@
 
         If the condition for `if` is `False`, the program checks the conditions of the subsequent `elif` blocks – the first `elif` block that is `True` is executed. If all the conditions are `False`, the `else` block will be executed.
 
-        - Nested conditional statements, e.g.:
+     - Nested conditional statements, e.g.:
 
         ```python
         x = 10
