@@ -87,3 +87,169 @@ for i in range(3):
 for i in range(6, 1, -2):
     print(i, end=" ")  # Outputs: 6, 4, 2
 ```
+<hr>
+
+**Exercise 1**
+
+Create a `for` loop that counts from 0 to 10, and prints odd numbers to the screen. Use the skeleton below:
+
+```python
+for i in range(1, 11):
+    # Line of code.
+        # Line of code.
+```
+
+<details>
+<summary>Check</summary>
+
+Sample solution:
+```python
+for i in range(0, 11):
+    if i % 2 != 0:
+        print(i)
+```
+</details>
+
+**Exercise 2**
+
+Create a `while` loop that counts from 0 to 10, and prints odd numbers to the screen. Use the skeleton below:
+
+```python
+x = 1
+while x < 11:
+    # Line of code.
+        # Line of code.
+    # Line of code.
+```
+
+<details>
+<summary>Check</summary>
+
+Sample solution:
+```python
+x = 1
+while x < 11:
+    if x % 2 != 0:
+        print(x)
+    x += 1
+```
+</details>
+
+**Exercise 3**
+
+Create a program with a `for` loop and a `break` statement. The program should iterate over characters in an email address, exit the loop when it reaches the `@` symbol, and print the part before `@` on one line. Use the skeleton below:
+
+```python
+for ch in "john.smith@pythoninstitute.org":
+    if ch == "@":
+        # Line of code.
+    # Line of code.
+```
+
+<details>
+<summary>Check</summary>
+
+Sample solution:
+```python
+for ch in "john.smith@pythoninstitute.org":
+    if ch == "@":
+        break
+    print(ch, end="")
+```
+</details>
+
+**Exercise 4**
+
+Create a program with a `for` loop and a `continue` statement. The program should iterate over a string of digits, replace each `0` with `x`, and print the modified string to the screen. Use the skeleton below:
+
+```python
+for digit in "0165031806510":
+    if digit == "0":
+        # Line of code.
+        # Line of code.
+    # Line of code.
+```
+
+<details>
+<summary>Check</summary>
+
+Sample solution:
+```python
+for digit in "0165031806510":
+    if digit == "0":
+        print("x", end="")
+        continue
+    print(digit, end="")
+```
+</details>
+
+**Exercise 5**
+
+What is the output of the following code?
+
+```python
+n = 3
+
+while n > 0:
+    print(n + 1)
+    n -= 1
+else:
+    print(n)
+```
+
+<details>
+<summary>Check</summary>
+
+Sample solution:
+```python
+4
+3
+2
+0
+```
+</details>
+
+**Exercise 6**
+
+What is the output of the following code?
+
+```python
+n = range(4)
+
+for num in n:
+    print(num - 1)
+else:
+    print(num)
+```
+
+<details>
+<summary>Check</summary>
+
+Sample solution:
+```python
+-1
+0
+1
+2
+3
+```
+</details>
+
+**Exercise 7**
+
+What is the output of the following code?
+
+```python
+for i in range(0, 6, 3):
+    print(i)
+```
+
+<details>
+<summary>Check</summary>
+
+Sample solution:
+```python
+0
+3
+```
+</details>
