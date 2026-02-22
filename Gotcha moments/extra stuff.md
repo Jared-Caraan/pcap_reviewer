@@ -1,6 +1,6 @@
 - 2s complement
 - priority table
 - quiz on bits (bit state, reset, set, negating)
-- negative on bits
+- negative on bits (signed and unsigned)
 - floats on bits
 - logical operation on non-empty non-integers (floats, data structs, classes, etc.)
