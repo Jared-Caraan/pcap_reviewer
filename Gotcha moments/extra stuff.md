@@ -4,5 +4,5 @@
 - negative on bits (signed and unsigned)
 - floats on bits
 - logical operation on non-empty non-integers (floats, data structs, classes, etc.)
-
+<hr>
 - List insert( ) method "out-of-range" mechanism
