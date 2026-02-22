@@ -5,7 +5,7 @@ B. `10`\
 C. `True`\
 D. `False`
 
-Answer: A
+Answer: A\
 Explanation: Since `10` is truthy, the and operator returns the second value.
 ##
 
@@ -16,7 +16,7 @@ B. `7`\
 C. `10`\
 D. `None`
 
-Answer: B
+Answer: B\
 Explanation: The '`or`' operator returns the first truthy value it encounters.
 ##
 
@@ -27,7 +27,7 @@ B. They are evaluated left-to-right simultaneously\
 C. `not`\
 D. `0`
 
-Answer: C
+Answer: C\
 Explanation: In Python, '`not`' has the highest precedence among logical operators.
 ##
 
@@ -38,7 +38,7 @@ B. `"Hello"`\
 C. `False`\
 D. `None`
 
-Answer: A
+Answer: A\
 Explanation: An empty list is falsy, and the '`and`' operator returns the first falsy value it finds.
 ##
 
@@ -49,6 +49,6 @@ B. `True`\
 C. `5`\
 D. `0`
 
-Answer: A
+Answer: A\
 Explanation: Python sees '`1`' as truthy in an '`or`' expression and stops immediately.
 ##
