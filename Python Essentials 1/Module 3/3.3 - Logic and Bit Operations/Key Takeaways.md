@@ -19,4 +19,46 @@ will be used to illustrate the meaning of bitwise operators in Python. Analyze t
    - `>>` does a bitwise right shift, e.g., `y >> 1 = 8`, which is `0000 1000` in binary,
    - `<<` does a bitwise left shift, e.g., `y << 3 = 128`, which is `1000 0000` in binary,
 
-* `-16` (decimal from signed 2's complement) -- read more about the Two's complement operation.
+*`-16` (decimal from signed 2's complement) -- read more about the [Two's complement](https://en.wikipedia.org/wiki/Two%27s_complement) operation.
+
+**Exercise 1**
+
+What is the output of the following snippet?
+
+```python
+x = 1
+y = 0
+
+z = ((x == y) and (x == y)) or not(x == y)
+print(not(z))
+```
+
+<details>
+<summary>Check</summary>
+
+`False`
+</details>
+
+**Exercise 2**
+
+What is the output of the following snippet?
+
+```python
+x = 4
+y = 1
+
+a = x & y
+b = x | y
+c = ~x  # tricky!
+d = x ^ 5
+e = x >> 2
+f = x << 2
+
+print(a, b, c, d, e, f)
+```
+
+<details>
+<summary>Check</summary>
+
+`0 5 -5 1 1 16`
+</details>
