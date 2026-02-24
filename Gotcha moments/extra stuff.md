@@ -6,3 +6,4 @@
 - logical operation on non-empty non-integers (floats, data structs, classes, etc.)
 <hr>
 - List insert( ) method "out-of-range" mechanism
+- Shallow and deep copy
