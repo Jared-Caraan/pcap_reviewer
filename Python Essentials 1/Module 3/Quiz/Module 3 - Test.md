@@ -15,7 +15,7 @@ Answer: a
 ##
 <img width="1867" height="524" alt="image" src="https://github.com/user-attachments/assets/766ce630-7801-4a25-b9c4-9e6d44ad08ed" />
 
-Answer: d
+Answer: c
 
 ##
 <img width="1867" height="519" alt="image" src="https://github.com/user-attachments/assets/f470b902-1361-4b47-9198-abe076c069f1" />
@@ -70,7 +70,7 @@ Answer: d
 ##
 <img width="1865" height="520" alt="image" src="https://github.com/user-attachments/assets/cc6727f5-7daa-4918-8ec4-53ce9ffc49b1" />
 
-Answer: d
+Answer: c
 
 ##
 <img width="1864" height="527" alt="image" src="https://github.com/user-attachments/assets/4d108b2a-efe4-4b46-901e-630487941852" />
