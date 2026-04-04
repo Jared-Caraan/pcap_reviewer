@@ -1,3 +1,5 @@
+### Logical Operations Part 2
+
 1. **The Core Logic: Short-Circuiting**
 
     Python doesn't just return `True` or `False`. It returns the actual value that determined the outcome of the expression.
