@@ -1,1 +1,1 @@
-### Logical Operations 2
+### Logical Operations Part 2
