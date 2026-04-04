@@ -1,4 +1,4 @@
-### Logical Operations Part 2
+### Logical Operations Part 1
 
 1. **The Core Logic: Short-Circuiting**
 
