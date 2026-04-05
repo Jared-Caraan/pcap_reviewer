@@ -6,5 +6,4 @@
 
 <hr>
 
-- List insert( ) method "out-of-range" mechanism
 - Shallow and deep copy
