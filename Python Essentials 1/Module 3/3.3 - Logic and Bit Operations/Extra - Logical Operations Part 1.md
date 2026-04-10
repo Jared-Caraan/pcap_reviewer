@@ -1,13 +1,13 @@
-### Logical Operations Part 1
+## Logical Operations Part 1
 
 1. **The Core Logic: Short-Circuiting**
 
     Python doesn't just return `True` or `False`. It returns the actual value that determined the outcome of the expression.
   
-    | Operator | Rule | Practical Result |
-    | -------- | ---- | ---------------- |
-    | `and` | Returns the **first falsy** value it finds. | If all are truthy, it returns the **last** value. |
-    | `or` | Returns the **first truthy** value it finds. | If all are falsy, it returns the **last** value. |
+    | Operator | Rule                                         | Practical Result                                  |
+    | -------- | -------------------------------------------- | ------------------------------------------------- |
+    | `and`    | Returns the **first falsy** value it finds.  | If all are truthy, it returns the **last** value. |
+    | `or`     | Returns the **first truthy** value it finds. | If all are falsy, it returns the **last** value.  |
 <hr>
 
 2. **What is "Falsy"?**
