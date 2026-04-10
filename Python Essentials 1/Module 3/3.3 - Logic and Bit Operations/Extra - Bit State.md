@@ -24,3 +24,31 @@ def check_bit(number, index):
 ### Quick Examples
 
 Let’s look at the number **13**, which is `1101` in binary.
+
+| Index     | Binary Value | Operation       | Result |
+| --------- | ------------ | --------------- | ------ |
+| **Bit 0** | `0001`       | `13 & (1 << 0)` | `1`    |
+| **Bit 1** | `0010`       | `13 & (1 << 1)` | `0`    |
+| **Bit 2** | `0100`       | `13 & (1 << 2)` | `4`    |
+| **Bit 3** | `1000`       | `13 & (1 << 3)` | `8`    |
+<hr>
+
+### Alternative: Using `bin()` or Bit Length
+
+If you prefer working with strings (though it's slower and less "Pythonic" for logic), you can convert the number to a binary string:
+
+```python
+number = 13
+binary_string = bin(number) # Result: '0b1101'
+
+# Check if the 2nd bit from the right is '1'
+# Note: String indexing is left-to-right, binary is right-to-left!
+is_set = binary_string[-3] == '1'
+```
+
+**Modern Python (3.10+)**
+
+If you are working with large integers and want to know how many bits are required to represent the number, you can use:
+
+- `int.bit_count()`: Returns the number of ones (set bits).
+- `int.bit_length()`: Returns the number of bits required to represent the integer in binary, excluding the sign and leading zeros.
