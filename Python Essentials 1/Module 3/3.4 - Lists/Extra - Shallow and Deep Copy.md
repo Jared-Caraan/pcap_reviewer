@@ -66,6 +66,95 @@ print(f"Pseudo:   {pseudo_deep}") # Output: [[99, 2], [3, 4]]
 | `b = a`                 | **Shared**   | **Shared**       | Any change affects both.             |
 | `b = a[:]`              | **Unique**   | **Shared**       | Changing nested lists affects both.  |
 | `b = [i[:] for i in a]` | **Unique**   | **Unique**       | Fails if nesting is > 2 levels deep. |
+<hr>
+
+### The copy() Method (Built-in Shallow Copy)
+
+Most built-in collections (list, dict, set) have a `.copy()` method. This is functionally identical to the slicing `[:]` trick but is more readable.
+
+**The Edge Case: Shared References in Dictionaries**
+If a dictionary contains a list, the `.copy()` method creates a new dictionary, but the list inside remains the same instance in memory.
+
+```python
+original_dict = {"scores": [10, 20], "user": "Alex"}
+shallow_dict = original_dict.copy()
+
+# Edge Case: Modifying the nested list
+shallow_dict["scores"].append(30)
+
+print(original_dict["scores"]) # Output: [10, 20, 30] (Modified!)
+print(shallow_dict is original_dict) # Output: False
+```
+<hr>
+
+### The `copy` Module: `copy.deepcopy()`
+
+The `deepcopy()` function is the "nuclear option." It recursively clones every object it finds.
+
+**The Edge Case: Self-Referential (Recursive) Objects**
+What happens if a list contains itself? A naive recursive copy would enter an infinite loop. `deepcopy` handles this by keeping a memo (a dictionary) of objects it has already copied.
+
+```python
+import copy
+
+list_a = [1, 2]
+list_a.append(list_a) # list_a is now [1, 2, [...]]
+
+# Edge Case: Deepcopying a recursive structure
+list_b = copy.deepcopy(list_a)
+
+print(len(list_b))      # Output: 3
+print(list_b[2] is list_b) # Output: True (It correctly recreated the self-reference)
+```
+<hr>
+
+### The `list()` Constructor
+
+Using the constructor `new_list = list(old_list)` is another common way to copy.
+
+**The Edge Case: Non-List Iterables**
+The constructor doesn't just copy; it **evaluates**. If you pass it a generator, it "exhausts" the generator to create the list. You cannot "copy" a generator this way to use it twice.
+
+```python
+gen = (x for x in range(3))
+list_1 = list(gen)
+list_2 = list(gen) # The generator is already empty!
+
+print(list_1) # Output: [0, 1, 2]
+print(list_2) # Output: []
+```
+<hr>
+
+### Compound Edge Case: Objects with Custom `__copy__`
+
+When working with Classes, you can actually break the standard behavior of the `copy` module by defining your own logic.
+
+```python
+import copy
+
+class Stubborn:
+    def __init__(self, value):
+        self.value = value
+    
+    def __copy__(self):
+        # Edge Case: Force the copy to always have a specific value
+        return Stubborn("I refuse to be a normal copy")
+
+a = Stubborn("Original")
+b = copy.copy(a)
+
+print(b.value) # Output: "I refuse to be a normal copy"
+```
+<hr>
+
+### Comparison of Methods
+
+| Method            | Type     | Depth        | Best Use Case                              |
+| ----------------- | -------- | ------------ | ------------------------------------------ |
+| `obj.copy()`      | Shallow  | 1 Level      | Quick copies of simple dicts/lists.        |
+| `list(iterable)`  | Shallow  | 1 Level      | Converting types while copying.            |
+| `copy.copy()`     | Shallow  | 1 Level      | Generic shallow copy for any object type.  |
+| `copy.deepcopy()` | **Deep** | **Infinite** | Complex, nested data or recursive objects. |
 
 > [!NOTE]
 > In Python, small integers (usually -5 to 256) and short strings are "interned." Even if you try to make a unique copy of the number `10`, Python will often point both variables to the same memory address anyway to save space. This is a harmless edge case because those types are immutable!
