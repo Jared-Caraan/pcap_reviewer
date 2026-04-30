@@ -57,6 +57,15 @@ print(f"Pseudo:   {pseudo_deep}") # Output: [[99, 2], [3, 4]]
 ```
 
 **The Critical Edge Case:** If you have a 3rd level of nesting (e.g., `[[[1]]]`), the list comprehension above fails to be "deep" because it only goes one level down. To truly deep copy without the module, you would need a recursive function.
+<hr>
+
+### Summary Table: Reference Behavior
+
+| Method                  | Top-level ID | Nested Object ID | Risk                                 |
+| ----------------------- | ------------ | ---------------- | ------------------------------------ |
+| `b = a`                 | **Shared**   | **Shared**       | Any change affects both.             |
+| `b = a[:]`              | **Unique**   | **Shared**       | Changing nested lists affects both.  |
+| `b = [i[:] for i in a]` | **Unique**   | **Unique**       | Fails if nesting is > 2 levels deep. |
 
 > [!NOTE]
 > In Python, small integers (usually -5 to 256) and short strings are "interned." Even if you try to make a unique copy of the number `10`, Python will often point both variables to the same memory address anyway to save space. This is a harmless edge case because those types are immutable!
