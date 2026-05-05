@@ -19,3 +19,5 @@ And because the current time is always different, the seed will also be differen
 <hr>
 
 ### `random()`
+
+The most general function in this module is also called `random()`. It produces a float number between zero and one.
