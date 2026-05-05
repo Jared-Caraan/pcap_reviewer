@@ -65,8 +65,11 @@ Imagine that you have a list of participants in a contest and you want to genera
 So let's say that we have the names and these are the participants. And we want to get three names like this.
 <img width="850" height="157" alt="image" src="https://github.com/user-attachments/assets/1d83e6f0-ae34-4729-9d35-48cfa780970c" /><br>
 
-This code picks three random names from the list and returns them as a new list. Note that the names will always be unique. Naturally, the second argument might not be greater than the number of elements in the sequence. 
+This code picks three random names from the list and returns them as a new list. Note that the names will always be unique (index-wise). Naturally, the second argument might not be greater than the number of elements in the sequence. 
 
 You will see an error value if the sample is larger than population or is negative.
 
-<img width="1181" height="544" alt="image" src="https://github.com/user-attachments/assets/5c4b5d43-8997-4cbe-a0ed-681a6faa9288" />
+<img width="1181" height="544" alt="image" src="https://github.com/user-attachments/assets/5c4b5d43-8997-4cbe-a0ed-681a6faa9288" /><br>
+
+> [!IMPORTANT]
+> `random.sample` picks elements with unique indexes but doesn't verify whether the elements at these indexes are unique.
