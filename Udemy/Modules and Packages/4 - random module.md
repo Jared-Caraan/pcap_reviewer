@@ -56,4 +56,17 @@ Naturally, we can use sequences other than lists. These could be strings or some
 
 But now take a look at the following code where we print ten random elements from the list.
 
-<img width="694" height="435" alt="image" src="https://github.com/user-attachments/assets/2ce9e712-1c4b-4f52-b9b8-26e08418f108" />
+<img width="694" height="435" alt="image" src="https://github.com/user-attachments/assets/2ce9e712-1c4b-4f52-b9b8-26e08418f108" /><br>
+
+You can see that the `choice()` function doesn't care about duplicates. It returns one random element at a time. But that element can be any element, also an element that was already returned in one of the previous invocations.
+
+Imagine that you have a list of participants in a contest and you want to generate a random order for their appearance on stage. In this case, you can't get the same person twice. You need to ensure that the order is random, but that each participant is only shown once. That's where you can use the `sample()` function. This function takes two arguments - a sequence, and the number of elements that should be randomly taken.
+
+So let's say that we have the names and these are the participants. And we want to get three names like this.
+<img width="850" height="157" alt="image" src="https://github.com/user-attachments/assets/1d83e6f0-ae34-4729-9d35-48cfa780970c" /><br>
+
+This code picks three random names from the list and returns them as a new list. Note that the names will always be unique. Naturally, the second argument might not be greater than the number of elements in the sequence. 
+
+You will see an error value if the sample is larger than population or is negative.
+
+<img width="1181" height="544" alt="image" src="https://github.com/user-attachments/assets/5c4b5d43-8997-4cbe-a0ed-681a6faa9288" />
