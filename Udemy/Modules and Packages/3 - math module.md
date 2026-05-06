@@ -28,7 +28,7 @@ And when we run the program, you can see four, three and three. So what are the 
   And you can see that in each case we simply get the number before the decimal part.
 
 > [!NOTE]
-> none of the three functions round the numbers according to the standard mathematical rules of rounding.
+> None of the three functions round the numbers according to the standard mathematical rules of rounding.
 <hr>
 
 ### Factorial
