@@ -16,15 +16,15 @@ For the PCAP examination, though, you need to know just six functions from these
 And when we run the program, you can see four, three and three. So what are the rules?
 - When it comes to `ceil()`, it always rounds the number upwards to the nearest integer, never less than the number itself.
   
-  <img width="476" height="337" alt="image" src="https://github.com/user-attachments/assets/4636e513-24e0-4c13-9b55-e135262c0aed" />
+  <img width="476" height="337" alt="image" src="https://github.com/user-attachments/assets/4636e513-24e0-4c13-9b55-e135262c0aed" /><br>
   So the first three all return four, because the number four is the nearest integer, not less than these numbers. `ceil(3.0)` returns three because three is not less than `3.0`. So with negative numbers, let's say `-5.4`, you get `-5` because this is the lowest number, not less than the number itself.
 - `floor()` is actually the opposite. It always rounds the number downwards to the nearest integer, never greater than the number itself.
   
-  <img width="476" height="331" alt="image" src="https://github.com/user-attachments/assets/c55eabd3-b4bb-43c4-8610-2338b512ec77" />
+  <img width="476" height="331" alt="image" src="https://github.com/user-attachments/assets/c55eabd3-b4bb-43c4-8610-2338b512ec77" /><br>
   These all return three, because the number three is the nearest integer, not greater than these numbers. Then in `floor(-5.4)`, you get `-6`.
 - `trunc()` is the easiest function of the three. This function is simply removes the decimal part and returns the integer from the number.
   
-  <img width="495" height="347" alt="image" src="https://github.com/user-attachments/assets/ba3a723e-36ef-40b9-af0e-ecc31662f3fa" />
+  <img width="495" height="347" alt="image" src="https://github.com/user-attachments/assets/ba3a723e-36ef-40b9-af0e-ecc31662f3fa" /><br>
   And you can see that in each case we simply get the number before the decimal part.
 
 > [!NOTE]
