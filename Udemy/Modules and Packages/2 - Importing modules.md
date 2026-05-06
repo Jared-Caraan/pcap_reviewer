@@ -24,7 +24,7 @@ Actually, that's a good feature to help you this way. If you have your own funct
 
 So let's say that, we import this `sys` module, but this time we come up with our own `exit` function, which instead of raising an exception, it prints - `I want to exit to the output`.
 
-<img width="857" height="365" alt="image" src="https://github.com/user-attachments/assets/e4ef3ac7-3739-4a3b-86bf-5fade1f5f63e" />
+<img width="857" height="365" alt="image" src="https://github.com/user-attachments/assets/e4ef3ac7-3739-4a3b-86bf-5fade1f5f63e" /><br>
 
 As you can see, first, the custom made `exit` function was invoked and we saw the `I want to exit` statement to the output and then the actual `exit` function from the `sys` module was called and an exception was raised. So the first invocation is our own function that just prints some text to the output. And the second invocation is the actual exit function from the `sys` module.
 
@@ -32,26 +32,29 @@ Thanks to this feature, thanks to the `sys` prefix - python can distinguish betw
 <hr>
 
 Having to state the namespace is generally considered a good feature, but you may sometimes need to use one particular function from one particular module over and over again. In such cases you'd like to omit the namespace. Python allows that, but you need to change the import statement. Here we could specify the exact entities from the module we are interested in. By using this syntax, we no longer need to use the `sys` namespace.
-<img width="866" height="216" alt="image" src="https://github.com/user-attachments/assets/8eebd00f-243d-4f69-b081-0315bd45a6e3" />
+<img width="866" height="216" alt="image" src="https://github.com/user-attachments/assets/8eebd00f-243d-4f69-b081-0315bd45a6e3" /><br>
 
 But what happens if you input a function named `exit` using this syntax, but you also have your own `exit` function.
-<img width="483" height="245" alt="image" src="https://github.com/user-attachments/assets/dff45958-ad65-49af-9e1b-3f1d82701e10" />
+<img width="483" height="245" alt="image" src="https://github.com/user-attachments/assets/dff45958-ad65-49af-9e1b-3f1d82701e10" /><br>
 
 As you can see, your own function replaced the function imported from the module. That's why you need to watch out when you use the `from module import` syntax. If you have something with the very same name, actually, whatever you try to import will be overwritten. It will be replaced by your custom code.
 <hr>
 
 You can also use an asterisk to import everything. But keep in mind, this is quite dangerous. There may be many entities in that module that have identical names with your own functions and variables. Using the asterisk may mean some of the functions will be replaced and a lot of conflicts will appear. That's why this line is not recommended for use.
+
 <img width="408" height="88" alt="image" src="https://github.com/user-attachments/assets/7377cffa-f68d-4737-8540-da9eb01acb30" />
 <hr>
 
 And now a tricky question. What's the difference between these two lines?
-<img width="403" height="94" alt="image" src="https://github.com/user-attachments/assets/640e8bb8-a40c-4644-9236-2ab278dfd61b" />
+
+<img width="403" height="94" alt="image" src="https://github.com/user-attachments/assets/640e8bb8-a40c-4644-9236-2ab278dfd61b" /><br>
 
 Both statements input all the entities from the `sys` module. But if you use the first option, you need to remember about the `sys.` prefix, about the `sys` namespace, so you need to add `sys.`. In the second option, you don't need to start with `sys.`, but you may get a lot of conflicting names in the end.
 <hr>
 
 Finally, you may also give aliases to whole modules or individual module entities.
-<img width="892" height="221" alt="image" src="https://github.com/user-attachments/assets/bd5a2a27-b596-43f8-a21b-c60e4f5894c0" />
+
+<img width="892" height="221" alt="image" src="https://github.com/user-attachments/assets/bd5a2a27-b596-43f8-a21b-c60e4f5894c0" /><br>
 
 And everything works fine. So instead of `sys.exit()`, you can now use the shorter version of `s.exit()`. This may come in handy if you work with modules that have really long names.
 <hr>
