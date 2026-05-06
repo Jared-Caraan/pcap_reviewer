@@ -32,9 +32,11 @@ Thanks to this feature, thanks to the `sys` prefix - python can distinguish betw
 <hr>
 
 Having to state the namespace is generally considered a good feature, but you may sometimes need to use one particular function from one particular module over and over again. In such cases you'd like to omit the namespace. Python allows that, but you need to change the import statement. Here we could specify the exact entities from the module we are interested in. By using this syntax, we no longer need to use the `sys` namespace.
+
 <img width="866" height="216" alt="image" src="https://github.com/user-attachments/assets/8eebd00f-243d-4f69-b081-0315bd45a6e3" /><br>
 
 But what happens if you input a function named `exit` using this syntax, but you also have your own `exit` function.
+
 <img width="483" height="245" alt="image" src="https://github.com/user-attachments/assets/dff45958-ad65-49af-9e1b-3f1d82701e10" /><br>
 
 As you can see, your own function replaced the function imported from the module. That's why you need to watch out when you use the `from module import` syntax. If you have something with the very same name, actually, whatever you try to import will be overwritten. It will be replaced by your custom code.
@@ -60,6 +62,7 @@ And everything works fine. So instead of `sys.exit()`, you can now use the short
 <hr>
 
 You can also give aliases to individual entities.
+
 <img width="877" height="212" alt="image" src="https://github.com/user-attachments/assets/63a9493f-2d28-45b5-96c9-25f0f18b7298" />
 
 You may use an alias if there is a very long name of a module function or variable, just try not to overuse this feature. People generally get accustomed to the function names from popular modules, so changing all of the names in your code may actually lead to lower readability.
