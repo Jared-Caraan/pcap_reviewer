@@ -3,19 +3,24 @@
 1. Let's create a new [Jupyter Notebook](https://jupyter.org/try-jupyter/tree/).
 2. We'll call it _modules-import_, and now we'll write the following line.
 3. `import sys` - this simple command tells Python to look at the module named `sys` and make available all the entities in that module. By convention, all input statements should be placed at the top of a python file.
+
    <img width="883" height="290" alt="image" src="https://github.com/user-attachments/assets/03683888-763b-4079-9d3d-a3308840ffab" />
 4. If you have more than one module to import, you've got two options.
    - Option A is to use to import statements like this, `import sys` and now let's say `import math`.
+
      <img width="325" height="89" alt="image" src="https://github.com/user-attachments/assets/855d9181-408f-41d1-9e95-0e537cb52427" />
    - Or you can do option B - `import sys, math` so you can separate the module names with commas.
+
      <img width="367" height="59" alt="image" src="https://github.com/user-attachments/assets/4c488625-700a-4b83-bb7e-93653848ee59" />
 5. Now we want to see what entities we can use. One way is to browse the [documentation](https://docs.python.org/3/library/sys.html) available online like we did in the previous section. But you can also use a special function named `dir`. Here you can see all the entities that this module makes available. In other words, all the variables and the functions that you can use in your code.
+
    <img width="1682" height="499" alt="image" src="https://github.com/user-attachments/assets/f640f878-0cfc-4b7f-b6f4-94818590098d" />
 6. And now if you want to use a particular function like the `exit` function, you should start by writing the module name followed by a dot, and now the name of the function. If we run our little program, you can see that the exception was raised and the program was interrupted. That's exactly what `sys.exit()` does.
+
    <img width="1674" height="349" alt="image" src="https://github.com/user-attachments/assets/8c99abce-d678-4046-bb61-37cdd4cad403" />
 7. What happens if you try to use an entity from a module that doesn't exist? You can see an attribute error.
+    
    <img width="1034" height="342" alt="image" src="https://github.com/user-attachments/assets/2ece28b7-e58c-4ea1-9973-e2cd38fc70c5" />
-
 <hr>
 
 Now, you may be wondering, why do you need to specify the module name?
