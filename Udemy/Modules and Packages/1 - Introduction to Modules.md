@@ -5,7 +5,8 @@ Python can be used for many purposes general purpose programming, data analysis 
 But no matter which field you work in, you may quickly notice that your code may grow bigger and bigger, and at some point it's difficult to keep everything in a single python file or a single Jupyter notebook.
 
 This is especially true if you work in a team with multiple people.
-<img width="843" height="499" alt="image" src="https://github.com/user-attachments/assets/831449bb-26bb-4efb-a821-e87087361a91" />
+
+<img width="843" height="499" alt="image" src="https://github.com/user-attachments/assets/831449bb-26bb-4efb-a821-e87087361a91" /><br>
 
 In programming, we often use a process called **decomposition**. We decompose or break down our code into smaller pieces stored in separate files. This makes them easier to maintain and develop.
 
@@ -15,7 +16,7 @@ But then just putting a code into separate files is not enough. You need to some
 
 The solution in Python is called **modules**. A module is simply a file that contains Python definitions and statements.
 
-<img width="836" height="497" alt="image" src="https://github.com/user-attachments/assets/e3b360fb-70d9-48e9-855a-4a2cfac2925d" />
+<img width="836" height="497" alt="image" src="https://github.com/user-attachments/assets/e3b360fb-70d9-48e9-855a-4a2cfac2925d" /><br>
 
 Such a file can be imported into a second file, and once you import the module, you can use all the definitions and statements from that module in that second file.
 You can also use modules created by other Python enthusiasts.
