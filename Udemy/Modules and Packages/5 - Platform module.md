@@ -58,4 +58,8 @@ Next, there is a function named `system()`. This function returns the generic op
 
 Finally, `python_version_tuple()`. Unlike all other functions presented in this video, this function does not return a string. Instead it returns a **tuple** with three elements. The first element is the major part of the Python version. The second one is the minor part, and the last one is the patch.
 
-<img width="582" height="86" alt="image" src="https://github.com/user-attachments/assets/e9db49e1-4b14-4b25-be46-bc83b2c251cd" />
+<img width="582" height="86" alt="image" src="https://github.com/user-attachments/assets/e9db49e1-4b14-4b25-be46-bc83b2c251cd" /><br>
+
+> [!NOTE]
+> There's also another function that looks similar: `platform.version()`. This function, in turn, returns your system's release version as a single string, for example:
+> `#24~20.04.1-Ubuntu SMP Mon Sep 12 06:14:01 UTC 2022`
