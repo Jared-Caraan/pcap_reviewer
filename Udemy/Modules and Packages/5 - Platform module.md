@@ -1,4 +1,4 @@
-## module platform
+## `platform` module
 
 ### Preface
 Create a new [Jupyter Notebook](https://jupyter.org/try-jupyter/tree/). and call it _modules-platform_. The last standard Python module that you need to know for the PCAP examination is called **platform**. The documentation describes it as "access to underlying platforms identifying data". In other words, the platform module can tell you a little bit about your Python version, the operating system, and the hardware you're using.
