@@ -63,3 +63,12 @@ Finally, `python_version_tuple()`. Unlike all other functions presented in this 
 > [!NOTE]
 > There's also another function that looks similar: `platform.version()`. This function, in turn, returns your system's release version as a single string, for example:
 > `#24~20.04.1-Ubuntu SMP Mon Sep 12 06:14:01 UTC 2022`
+<hr>
+
+> [!TIP]
+> This content is outside the scope of the PCAP examination, but it may be very useful if you work with Python. It's mentioned that there are lots of modules written for Python by both professional Python developers and Python enthusiasts.
+>
+> But how can you find out what modules are available? Where can you find their code?
+>
+> One of the best sources of Python modules is the **Python Package Index**, or **PyPI**.
+> It is available at [https://pypi.org/](https://pypi.org/). It is a repository full of Python modules, you can browse them and download them as you need. Have fun!
