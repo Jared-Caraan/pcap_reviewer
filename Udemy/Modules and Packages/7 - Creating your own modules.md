@@ -76,3 +76,13 @@ __my_var
 ```
 
 Keep in mind, however, that this is just a convention. The users can technically do whatever they want with the variable, the underscore simply inform them that it's a bad idea.
+<hr>
+
+### Shebang
+
+A **shebang** (or hashbang) is a special character sequence `#!` at the very beginning of a script file. It tells the operating system which interpreter should be used to execute the code, allowing you to run a Python script as a standalone executable.
+
+```python
+#!/usr/bin/env python3
+```
+
