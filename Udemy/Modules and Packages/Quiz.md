@@ -3,7 +3,7 @@
 Answer: b
 <hr>
 
-<img width="996" height="441" alt="image" src="https://github.com/user-attachments/assets/6c23efea-0430-408f-8cca-44508912d493" />
+<img width="996" height="441" alt="image" src="https://github.com/user-attachments/assets/6c23efea-0430-408f-8cca-44508912d493" /><br>
 
 Answer: b
 <hr>
