@@ -91,4 +91,3 @@ def halve_strings(string_list):
     return [string_utils.halve_string(i) for i in string_list]
 ```
 </details>
-<hr>
