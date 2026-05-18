@@ -41,6 +41,12 @@ But Unicode is actually just a standard. It doesn't explain how to code or store
 
 For instance, the first plane is the so called **Basic Multilingual Plane**. Plane two in turn is the **Supplementary Ideographic Plane** for languages such as Japanese or Korean.
 
-There is more than one technique to actually implement Unicode in specific computers. One of the most widely known standards is UCS-4. **UCS** is short for **Universal Character Set**. In UCS-4 each character uses 32 bits or four bytes to store
+There is more than one technique to actually implement Unicode in specific computers. One of the most widely known standards is UCS-4. **UCS** is short for **Universal Character Set**. In UCS-4 each character uses 32 bits or four bytes to store a character. The problem with UCS-4, however, is that it takes a lot of space. You need as many as 32 bits to keep a single character. If you compare that to eight bits in ASCII, you will quickly see that your files grow in size four times.
 
-a character.
+<img width="752" height="341" alt="image" src="https://github.com/user-attachments/assets/4096f957-29eb-43db-9b4a-7777a1bb965e" /><br>
+
+Fortunately, there are other forms of encoding Unicode. One of them is called UTF-8. The good thing about UTF-8 is that it only uses as many bits for each character as are really needed. All standard ASCII characters occupies exactly eight bits, just like in the ASCII format. Non-Latin characters from other languages like Polish or Spanish occupy 16 bits. And the characters used in China, Japan and Korea occupy 24 bits. 
+
+<img width="750" height="430" alt="image" src="https://github.com/user-attachments/assets/d527c45f-8f45-4416-9692-154c5fb9aee1" /><br>
+
+Python fully supports UTF eight. You can use UTF eight characters to name your variables. In practice, this means that your variables could be written in English, Spanish, or even Japanese characters. And Python will do just fine. You can also use all UTF-8 characters during input and output. If you ask a user to provide their name using the input function and they provide something in Japanese characters, Python will take care of that without any problems.
