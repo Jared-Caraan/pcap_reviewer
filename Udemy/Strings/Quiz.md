@@ -58,7 +58,8 @@ Answer: a
 Answer: b
 <hr>
 
-<img width="1011" height="488" alt="image" src="https://github.com/user-attachments/assets/004ea3d2-243c-4234-aca6-936aaa70f569" /><br>
+<img width="998" height="512" alt="image" src="https://github.com/user-attachments/assets/16bf8087-c7e0-4018-9854-ebfaf563e29c" /><br>
+<br>
 
 Answer: a
 <hr>
@@ -68,6 +69,6 @@ Answer: a
 Answer: d
 <hr>
 
-<img width="990" height="643" alt="image" src="https://github.com/user-attachments/assets/1af2f856-ccc9-4c57-9f7e-56a0b388d718" /><br>
+<img width="1005" height="592" alt="image" src="https://github.com/user-attachments/assets/194e7d4e-df79-4d57-a1c8-bdd10cffe3b5" /><br>
 
 Answer: c
