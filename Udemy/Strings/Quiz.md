@@ -64,7 +64,7 @@ Answer: b
 Answer: a
 <hr>
 
-<img width="1004" height="569" alt="image" src="https://github.com/user-attachments/assets/df63ae53-0264-4f6b-8734-f2f74ff75f20" /><br>
+<img width="1000" height="497" alt="image" src="https://github.com/user-attachments/assets/4366d7d6-13ab-4e96-9a93-a79706cc4233" /><br>
 
 Answer: d
 <hr>
