@@ -1,4 +1,4 @@
-<img width="258" height="54" alt="image" src="https://github.com/user-attachments/assets/8db24b3c-a08c-4993-b705-9f82eec81ad3" />## Instance variables
+## Instance variables
 
 Create a new [Jupyter Notebook](https://jupyter.org/try-jupyter/tree/). and call it _oop-instance-variables_.
 
