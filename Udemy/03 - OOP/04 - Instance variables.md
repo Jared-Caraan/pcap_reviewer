@@ -21,6 +21,7 @@ We are also able to delete any existing property, and now the `my_pet` object on
 Instead, we have a brand new property that was not defined in the constructor `color`.
 
 All of this has some consequences. First of all, you must be aware that different objects of the same class can have different properties. And second of all, each object has its own set of properties with its own values. The properties of one object don't interfere with the properties of another object in any way. In general, such properties are called **instance variables**.
+<hr>
 
 ### Instance Variables
 
@@ -29,6 +30,7 @@ An instance is another name for an object - this indicates that instance. Then y
 <img width="625" height="353" alt="image" src="https://github.com/user-attachments/assets/87832f58-02b0-4c16-93ac-37e5adafbac7" /><br>
 
 As you can see, the dictionary under the name `__dict__` shows all the currently available properties. You can see how the dictionary changes when we add or delete a property. Keep in mind that you can use the `__dict__` instance variable with any object that you create. Python automatically adds this for you.
+<hr>
 
 ### Private instance variables
 
