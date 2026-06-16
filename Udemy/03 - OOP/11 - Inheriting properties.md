@@ -28,6 +28,25 @@ Now what happens when we create a constructor in the `LandVehicle` in turn?
 
 <img width="580" height="377" alt="image" src="https://github.com/user-attachments/assets/b4cfb63e-17e4-49e9-89c5-e58ad9e80f55" /><br>
 
-We could successfully create an object of class `Car`, but the speed property from the vehicle constructor is
+We could successfully create an object of class `Car`, but the `speed` property from the `Vehicle` constructor is gone. How is it possible?
 
-gone.
+The rule is that Python only inherits the constructor from the superclass if there is no constructor defined in the given class. In the previous example, `Car` didn't have a constructor, so it inherited a constructor from `LandVehicle` and because `LandVehicle` did not have a constructor either, it inherited the constructor defined in the `Vehicle` class. As a result, the constructor from `Vehicle` was used to create a `Car` object.
+
+And here when we defined a constructor in `LandVehicle`, it did not inherit the one for a `Vehicle`. That means that `LandVehicle` has its own constructor now, which is not related to the `Vehicle` constructor in any way. And this time `Car` inherited this new constructor from `LandVehicle` which doesn't have a `speed` property.
+
+It looks like `Car` only has the properties from their `LandVehicle`, but it doesn't have the property from `Vehicle`. How to change that? All we need to do is invoke the `Vehicle` constructor from the `LandVehicle` constructor directly.
+
+<img width="657" height="388" alt="image" src="https://github.com/user-attachments/assets/3c903a84-b016-4e5e-96e8-0b2d79cce900" /><br>
+
+So in short, to invoke the constructor from the superclass, we can use the dot notation with the name of the superclass, but we can also do something else.
+<hr>
+
+### `super`
+
+Instead of `Vehicle`, we're going to use `super()` and get rid of `self`.
+
+<img width="1528" height="427" alt="image" src="https://github.com/user-attachments/assets/de6f6c1d-70b2-4049-a74b-a5b0a68190ed" /><br>
+
+Note a subtle difference when we use the `super()` keyword instead of the superclass name, we don't need to provide the `self` parameter. It will be automatically passed for us by Python to a superclass constructor. Both notations, the one with the class name and the one with the `super` keyword allow you to use constructors from super classes. This in turn means that we can inherit instance variables from super classes outside the class definition.
+
+<img width="370" height="137" alt="image" src="https://github.com/user-attachments/assets/8911929d-62d4-4076-b2c2-084291df3931" /><br>
