@@ -1,6 +1,6 @@
 ## Inheriting Class Variables and Methods
 
-Create a new [Jupyter Notebook](https://jupyter.org/try-jupyter/tree/). and call it _oop-inheritance-properties_.
+Create a new [Jupyter Notebook](https://jupyter.org/try-jupyter/tree/). and call it _oop-inheritance-class-variables-methods_.
 
 ### Inheriting class variables
 
