@@ -35,7 +35,7 @@ If for any reason you want to set the seed yourself, you can use the `seed()` fu
 
 ### `seed()`
 
-And now, before asking for random numbers, we'll set the seat to `0`.
+And now, before asking for random numbers, we'll set the seed to `0`.
 
 <img width="454" height="285" alt="image" src="https://github.com/user-attachments/assets/73ca04ef-abca-41d2-9fa9-b6757faa35b5" /><br>
 
