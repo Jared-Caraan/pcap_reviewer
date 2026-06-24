@@ -23,8 +23,6 @@ And this is after the functionality is used.
 
 <img width="1535" height="892" alt="image" src="https://github.com/user-attachments/assets/59d2db12-ea2e-4922-b8bf-2eab08e7086a" />
 
-If you try to write `import sys, secret module` on line 1, you will get an error because on this line the secret folder is not added to the path variable yet.
-
 Additionally, you can add both relative and absolute paths. Absolute path is the full address of the folder, starting from the hard drive label.
 
 <img width="380" height="58" alt="image" src="https://github.com/user-attachments/assets/b15bc5ab-ca0e-41c5-a5e7-d54164065c0c" /><br>
