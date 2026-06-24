@@ -40,7 +40,7 @@ Theoretically speaking, Python should first show `hello` when you import _module
 
 ### Module names
 
-Each module has a special name created for us by Python - `__name__`. Note that before and after the word name there are double underscores. Python sets the value of this variable for us and the value depends on how the file is run. When the given file is run directly, the name variable is set to main when a given file is imported as a module. Instead, the name variable is set to the module name that is it is set to the file's name without the _py_ extension.
+Each module has a special name created for us by Python - `__name__`. Note that before and after the word name there are double underscores. Python sets the value of this variable for us and the value depends on how the file is run. When the given file is run directly, the name variable is set to main. When a given file is imported as a module, the name variable is set to the module name that is it is set to the file's name without the _py_ extension.
 
 Let's see that in practice.
 
