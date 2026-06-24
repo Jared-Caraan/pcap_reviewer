@@ -58,12 +58,6 @@ Answer: a
 Answer: b
 <hr>
 
-<img width="998" height="512" alt="image" src="https://github.com/user-attachments/assets/16bf8087-c7e0-4018-9854-ebfaf563e29c" /><br>
-<br>
-
-Answer: a
-<hr>
-
 <img width="1000" height="497" alt="image" src="https://github.com/user-attachments/assets/4366d7d6-13ab-4e96-9a93-a79706cc4233" /><br>
 
 Answer: d
