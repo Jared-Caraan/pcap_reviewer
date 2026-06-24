@@ -39,7 +39,7 @@ And now, before asking for random numbers, we'll set the seed to `0`.
 
 <img width="454" height="285" alt="image" src="https://github.com/user-attachments/assets/73ca04ef-abca-41d2-9fa9-b6757faa35b5" /><br>
 
-If we rerun the cell, you can see that the pseudo-random values don't change. They are all based on the same seed of `0`. So the series of numbers will receive is always the same.
+If we rerun the cell, you can see that the pseudo-random values don't change. They are all based on the same seed of `0`. So the series of numbers we receive is always the same.
 <hr>
 
 ### `choice(), sample()`
