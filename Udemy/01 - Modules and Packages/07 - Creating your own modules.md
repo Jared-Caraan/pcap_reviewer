@@ -61,7 +61,7 @@ But if we change the invocation in the terminal window and we'll do _own_module_
 
 <img width="825" height="52" alt="image" src="https://github.com/user-attachments/assets/08b6333e-b19d-4df5-8118-55e742cbfb7f" /><br>
 
-That's because this time we don't use own module as a module imported in the main file. We use it directly and independently. In practice, many modules use the **name** variable to decide whether to run tests or not. Good modules don't only contain useful functions, they also contain some automated tests to verify whether the functions work correctly. Naturally, we don't want to run these tests when the module is imported in another file. However, when the module is executed independently, then the tests are activated.
+That's because this time we don't use `own_module` as a module imported in the main file. We use it directly and independently. In practice, many modules use the **name** variable to decide whether to run tests or not. Good modules don't only contain useful functions, they also contain some automated tests to verify whether the functions work correctly. Naturally, we don't want to run these tests when the module is imported in another file. However, when the module is executed independently, then the tests are activated.
 <hr>
 
 ### Public and private variables
