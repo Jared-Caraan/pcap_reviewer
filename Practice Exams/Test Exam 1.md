@@ -557,3 +557,23 @@ Answer: a
 
 </details>
 <hr>
+
+<img width="381" height="901" alt="image" src="https://github.com/user-attachments/assets/a7189b5a-a2af-473c-ab81-003d877fb0d3" />
+
+Answer: a
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="731" height="152" alt="image" src="https://github.com/user-attachments/assets/4c951e74-2629-48da-9edf-8306b58b0b25" />
+
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+
+
+</details>
+<hr>
