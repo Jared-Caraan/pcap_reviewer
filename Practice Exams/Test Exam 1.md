@@ -1,4 +1,4 @@
-<img width="991" height="787" alt="image" src="https://github.com/user-attachments/assets/2ace4034-4120-4b5a-b077-6b4cce9cc4cd" /><br>
+<img width="588" height="812" alt="image" src="https://github.com/user-attachments/assets/340ac320-e57e-4e73-a4d8-8f4c3cf1a756" /><img width="991" height="787" alt="image" src="https://github.com/user-attachments/assets/2ace4034-4120-4b5a-b077-6b4cce9cc4cd" /><br>
 
 Answer: d
 <details>
@@ -731,6 +731,191 @@ Answer: a
 
 <br>
 <img width="637" height="533" alt="image" src="https://github.com/user-attachments/assets/3ecb0a7f-58b1-420d-9636-e4f8f68efd12" />
+
+</details>
+<hr>
+
+<img width="441" height="772" alt="image" src="https://github.com/user-attachments/assets/7e742c6b-94d4-4426-827f-f3eeedd79e29" /><br>
+
+Answer: c
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="911" height="110" alt="image" src="https://github.com/user-attachments/assets/81c4e0b5-c6ff-44f2-808e-72cfd0a77bb1" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="582" height="286" alt="image" src="https://github.com/user-attachments/assets/34203989-affb-4efe-952e-4e5463ef511e" />
+
+</details>
+<hr>
+
+<img width="411" height="847" alt="image" src="https://github.com/user-attachments/assets/6447badd-f267-4380-8cc8-29bd3ea18903" /><br>
+
+Answer: d
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="820" height="127" alt="image" src="https://github.com/user-attachments/assets/ed396d94-eefc-470a-a411-d8397c0c47f1" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="467" height="886" alt="image" src="https://github.com/user-attachments/assets/d49664f9-1d71-4a49-9a51-26f7e8e682e6" />
+
+</details>
+<hr>
+
+<img width="433" height="893" alt="image" src="https://github.com/user-attachments/assets/9ce8ca0d-ea8b-4880-9519-5f1548ca305d" /><br>
+
+Answer: e
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="806" height="155" alt="image" src="https://github.com/user-attachments/assets/dab4c865-8c5e-418e-82f2-3224885a2c06" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="406" height="933" alt="image" src="https://github.com/user-attachments/assets/1241a93f-b166-4873-821c-8c8ed8d7ad8f" />
+
+</details>
+<hr>
+
+<img width="985" height="676" alt="image" src="https://github.com/user-attachments/assets/be74df9a-5bd1-4c4b-adc2-a35cc634a676" /><br>
+
+Answer: b,d
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="920" height="118" alt="image" src="https://github.com/user-attachments/assets/9b1c8231-3b66-401e-8915-56dcc82f1726" />
+<img width="883" height="146" alt="image" src="https://github.com/user-attachments/assets/623a4248-ab03-4fe1-be64-4e92be61b34e" />
+
+</details>
+<hr>
+
+<img width="537" height="845" alt="image" src="https://github.com/user-attachments/assets/50221579-2dbc-44b5-857b-f52901a17554" /><br>
+
+Answer: d
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="903" height="166" alt="image" src="https://github.com/user-attachments/assets/4288d104-1749-492c-b603-4723fc880ed9" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="670" height="570" alt="image" src="https://github.com/user-attachments/assets/cb291ae8-b0af-409d-bf24-5d6c0e89256b" />
+
+</details>
+<hr>
+
+<img width="430" height="823" alt="image" src="https://github.com/user-attachments/assets/7b194309-78e6-4643-a7b3-21b7e620c242" /><br>
+
+Answer: d
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="730" height="125" alt="image" src="https://github.com/user-attachments/assets/1413b0b6-49cc-479e-9705-06bfc97a73bb" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="510" height="645" alt="image" src="https://github.com/user-attachments/assets/ba6db8b3-7f6d-47f8-9e8d-e8d229a8707a" />
+
+</details>
+<hr>
+
+<img width="983" height="692" alt="image" src="https://github.com/user-attachments/assets/c844a2da-1747-43b7-a76a-922a8002a8cd" /><br>
+
+Answer: a,d
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="907" height="145" alt="image" src="https://github.com/user-attachments/assets/13b6cd77-5cd6-496e-b1a6-7506bac5c99e" />
+<img width="857" height="155" alt="image" src="https://github.com/user-attachments/assets/0f79884c-3782-47c6-bbdd-399f723f026f" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="677" height="485" alt="image" src="https://github.com/user-attachments/assets/a24d7053-cd92-4f72-9e83-7c489a803c1d" />
+
+</details>
+<hr>
+
+<img width="558" height="650" alt="image" src="https://github.com/user-attachments/assets/c8060356-e70a-4e7a-9a59-4b5c1deb37d7" /><br>
+
+Answer: d
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="835" height="145" alt="image" src="https://github.com/user-attachments/assets/da6e32d1-c0e0-47c2-a7f9-1033f5fef68c" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="663" height="620" alt="image" src="https://github.com/user-attachments/assets/0e902086-f193-4157-9037-65525132ec06" />
+
+</details>
+<hr>
+
+<img width="552" height="557" alt="image" src="https://github.com/user-attachments/assets/191a535b-1bac-404f-aed8-32acab5c0f72" /><br>
+
+Answer: b
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="847" height="117" alt="image" src="https://github.com/user-attachments/assets/f6ce465d-ea53-4adc-a40f-ddc8cd45c17b" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="535" height="302" alt="image" src="https://github.com/user-attachments/assets/c8afc6fa-969e-4835-b1fe-0eb778ff445a" />
+
+</details>
+<hr>
+
+<img width="467" height="847" alt="image" src="https://github.com/user-attachments/assets/a8525944-24df-4d49-95e7-6de4f4d22454" /><br>
+
+Answer: b
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="905" height="148" alt="image" src="https://github.com/user-attachments/assets/988a2ba5-750d-4c4e-8c89-ed82c5e86f4d" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="588" height="812" alt="image" src="https://github.com/user-attachments/assets/f5e16662-c787-456d-88c3-f74e8fccceff" />
 
 </details>
 <hr>
