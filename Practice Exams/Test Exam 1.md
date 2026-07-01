@@ -1303,3 +1303,199 @@ Answer: c
 
 </details>
 <hr>
+
+<img width="677" height="475" alt="image" src="https://github.com/user-attachments/assets/c7e37c47-ec52-49c4-bf96-e015564f7530" /><br>
+
+Answer: a
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="916" height="148" alt="image" src="https://github.com/user-attachments/assets/05a87252-d8d8-4579-811d-00a1d10efa12" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="632" height="382" alt="image" src="https://github.com/user-attachments/assets/5a3fb527-091d-4548-8229-1e011373a375" /><br>
+
+[https://www.w3schools.com/python/ref_string_isalnum.asp](https://www.w3schools.com/python/ref_string_isalnum.asp)
+
+</details>
+<hr>
+
+<img width="593" height="596" alt="image" src="https://github.com/user-attachments/assets/859688ef-6e49-4ca0-999b-0d721f0806dc" /><br>
+
+Answer: b
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="902" height="141" alt="image" src="https://github.com/user-attachments/assets/97f37a5f-261d-46db-a683-e60db1d1651b" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="588" height="373" alt="image" src="https://github.com/user-attachments/assets/49f74841-33a7-4c81-a4fc-84452f12a4a8" />
+
+</details>
+<hr>
+
+<img width="600" height="712" alt="image" src="https://github.com/user-attachments/assets/9633aaca-20d6-4e73-ab05-e9328bdf3997" /><br>
+
+Answer: b,d
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="850" height="122" alt="image" src="https://github.com/user-attachments/assets/51d4a78b-93bf-4069-82a3-128eb7f6189a" /><br>
+<img width="897" height="130" alt="image" src="https://github.com/user-attachments/assets/23023836-b622-4fe5-872c-29848ccd7243" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="597" height="647" alt="image" src="https://github.com/user-attachments/assets/436e7521-d459-4761-b294-30de6d402160" />
+
+</details>
+<hr>
+
+<img width="505" height="562" alt="image" src="https://github.com/user-attachments/assets/81b7fcb8-d4d3-4ced-b087-222ba739003d" /><br>
+
+Answer: c
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="906" height="137" alt="image" src="https://github.com/user-attachments/assets/bdc489db-c765-4c38-bf0d-5895af6592ce" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="600" height="477" alt="image" src="https://github.com/user-attachments/assets/8a204e79-1829-4525-b678-6ff78cc309af" />
+
+</details>
+<hr>
+
+<img width="417" height="896" alt="image" src="https://github.com/user-attachments/assets/5447d616-a46b-4488-b9ac-5ce4574c881a" /><br>
+
+Answer: a
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="811" height="195" alt="image" src="https://github.com/user-attachments/assets/5a3b46d7-86de-4553-adb6-4844af5b6118" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="610" height="807" alt="image" src="https://github.com/user-attachments/assets/c33df6e1-389c-4179-8a21-ab1facd58eec" />
+
+</details>
+<hr>
+
+<img width="413" height="635" alt="image" src="https://github.com/user-attachments/assets/83a3e165-1f27-439f-9291-f7555c5376d0" /><br>
+
+Answer: c
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="818" height="133" alt="image" src="https://github.com/user-attachments/assets/61165cf5-b41c-4673-9771-ec17cbae5738" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="555" height="601" alt="image" src="https://github.com/user-attachments/assets/bcb43b3e-723c-4dee-94b9-69898d9e7358" />
+
+</details>
+<hr>
+
+<img width="422" height="637" alt="image" src="https://github.com/user-attachments/assets/260b778c-7e03-4391-9b70-1e8369610109" /><br>
+
+Answer: d
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="816" height="110" alt="image" src="https://github.com/user-attachments/assets/f05addf6-6fbd-42b7-84c3-1928e611e97b" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="562" height="458" alt="image" src="https://github.com/user-attachments/assets/16612a8c-be7a-47cc-a0ec-025830ef3523" />
+
+</details>
+<hr>
+
+<img width="592" height="591" alt="image" src="https://github.com/user-attachments/assets/782b19f9-f545-42e7-b85c-9347c89cee36" /><br>
+
+Answer: b,d
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="812" height="133" alt="image" src="https://github.com/user-attachments/assets/268e0247-0705-4d1d-ab25-12804e5728de" /><br>
+<img width="787" height="107" alt="image" src="https://github.com/user-attachments/assets/9c83726f-c0eb-4bd1-b593-40f4f829115a" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="532" height="676" alt="image" src="https://github.com/user-attachments/assets/b72835b3-3ed3-4f73-8d43-660affb19701" /><br>
+
+[https://en.wikipedia.org/wiki/Standard_streams](https://en.wikipedia.org/wiki/Standard_streams)
+
+</details>
+<hr>
+
+<img width="445" height="615" alt="image" src="https://github.com/user-attachments/assets/0d7f57c6-83cc-4570-a1a3-30a10786eb61" /><br>
+
+Answer: d
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="808" height="160" alt="image" src="https://github.com/user-attachments/assets/d4b4b707-1eec-49f3-9e14-5de000341d88" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="612" height="772" alt="image" src="https://github.com/user-attachments/assets/b9ad8792-e2b7-452c-bdae-623dce981641" />
+
+</details>
+<hr>
+
+<img width="557" height="836" alt="image" src="https://github.com/user-attachments/assets/a3bc7da6-cdaf-4286-a187-8a85bdc52878" /><br>
+
+Answer: b
+<details>
+<summary>Brief Explanation</summary>
+
+<br>
+<img width="798" height="132" alt="image" src="https://github.com/user-attachments/assets/f8cbb7b5-e085-4dec-9508-73c351227750" />
+
+</details>
+<details>
+<summary>Overall Explanation</summary>
+
+<br>
+<img width="585" height="847" alt="image" src="https://github.com/user-attachments/assets/f98eac33-0730-4099-940a-0b242475b220" />
+
+</details>
+<hr>
